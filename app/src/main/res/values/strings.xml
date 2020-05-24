@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Home Network Devices</string>
+    <string name="refresh_label">Refresh</string>
+    <!-- configure your router service address -->
+    <string name="router_service_url">http://192.168.1.254/cgi-bin/devices.ha</string>
+    <string name="ip_name_header">IPv4 Address / Name</string>
+    <string name="mac_header">MAC Address</string>
+    <string name="con_header">Connection Type</string>
+</resources>

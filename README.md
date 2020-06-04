@@ -1,5 +1,5 @@
 # hnwcd
-Home Network Connected Devices.
+Home Network Connected Devices. AT&T Arris BGW-210 700 Gateway/Router Home Network Devices screen scrape and view Android App
 
 An Android App to display devices connected on Arris BGW 210-700 Gateway/Router
 

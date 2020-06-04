@@ -85,6 +85,12 @@ public class ProcessCallback {
                 header = null;
             }
         }
+        if(null != device) {
+            if(devices.get(device.con) == null) {
+                devices.put(device.con, new ArrayList<DeviceModel>(10));
+            }
+            devices.get(device.con).add(device);
+        }
         reorganizeResults(devices,backingList);
 
     }
@@ -119,7 +125,7 @@ public class ProcessCallback {
      * @return the readable value
      */
     private String translateCon(String key) {
-        if(key.endsWith("1")) {
+        if(key.endsWith("4")) {
             return "Upstairs, " + key;
         }
         if(key.endsWith("2")) {
